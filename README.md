@@ -1,3 +1,15 @@
+# Bitcoin Core 0.11 with addrindex patch
+
+* Built from https://github.com/btcdrak/bitcoin/archive/addrindex-0.11.zip on June 27, 2015
+* Stop bitcoind and uninstall (`dpkg -r`) any older
+
+## Download
+
+### Raspberry Pi B (armhf)
+
+* https://www.dropbox.com/s/t2gkwih0qq5bfyy/bitcoin-addrindex_0.11-0_armhf.orig.deb?dl=0
+* Checksum (SHA256): `6485fb82c8a00f807b76a7da8cd8467795e87d4cd7b5ba8a41f05ccbbd894484`
+
 # Bitcoin Core 0.10.2 with addrindex patch
 
 ## Download
