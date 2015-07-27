@@ -1,7 +1,8 @@
 # Bitcoin Core 0.11 with addrindex patch
 
 * Built from https://github.com/btcdrak/bitcoin/archive/addrindex-0.11.zip on June 27, 2015
-* Stop bitcoind and uninstall (`dpkg -r`) any older
+* Stop bitcoind and uninstall (`dpkg -r`) any older bitcoin-addrindex if present. Reindex the blockchain if a non-addrindex version of Bitcoin Core was installed previously
+* The package is built without a GUI
 
 ## Download
 
