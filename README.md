@@ -11,6 +11,11 @@
 * https://www.dropbox.com/s/t2gkwih0qq5bfyy/bitcoin-addrindex_0.11-0_armhf.orig.deb?dl=0
 * Checksum (SHA256): `6485fb82c8a00f807b76a7da8cd8467795e87d4cd7b5ba8a41f05ccbbd894484`
 
+### Raspberry Pi 2 (RPi2) (armhf)
+
+* https://www.dropbox.com/s/n05a7r7g7z6oavp/bitcoin-addrindex_0.11-0_armhf.deb?dl=0
+* Checksum (SHA256): `4bf44cf87241c9ffbfc91b5ca8c69b8a09c16d9d5b82f00b4dd73fc91d0b9d4f`
+
 # Bitcoin Core 0.10.2 with addrindex patch
 
 ## Download
@@ -22,9 +27,9 @@
 
 * Install all dependencies required for Bitcoin Core on Raspbian (libssl1.0.0, libprotobuf, libgcc1, libboost-filesystem, libboost-chrono,libboost-filesystem, libboost-program-options, libboost-system, libboost-thread, libboost-test, etc.)
 * Uninstall any older version if you have it
-* (optional) Make a backup copy of your blockchain
+* (optional) Make a backup copy of your blockchain and/or wallet
 * Install this package
-* If you don't already have an indexed copy of blockchain data, run bitciond once with `-reindex`
+* If you don't already have an indexed copy of blockchain data (and you don't if you didn't previously have Bitcoin Core with addindex), run bitciond or Bitcoin-Qt once with `-reindex`
 
 ## Uninstall Procedure
 
