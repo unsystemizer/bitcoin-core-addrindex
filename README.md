@@ -30,7 +30,7 @@ Note: This package was built on Raspbian upgraded to Jessie (August 24, 2015)
 This package has been tested on x86 and x64 architectures, Windows XP and up. Windows 10 has not been tested (feel free to report success or problems with Windows 10 in Issues).
 
 * https://www.dropbox.com/s/lf9u4xgefcw3f6s/Bitcoin_Core_with_addrindex_v0.11.msi?dl=0
-* Checksum (SHA256): `A0795F8354B7A23DBC7DC851C83E422F36A0A6A9`
+* Checksum (SHA256): `68eaceaf29cf34e2b1e7274378bfcaf8a69913e7b35bbbab0bc7b56176b634ed`
 
 Notes: 
 
