@@ -1,6 +1,24 @@
+#Bitcoin Core 0.11.1 with addrindex patch
+
+##Download
+
+####Raspberry Pi 2 (armhf)
+
+* https://www.dropbox.com/s/jf8xc08t45epaab/bitcoin-addrindex_0.11-1_armhf.deb
+* Checksum (SHA256): `f26ce0e6ce430d3ea640f92c2ffea1edb3a5a0d594a6c47ed164b225f1d34e49`
+* Source code: https://github.com/btcdrak/bitcoin/releases/download/v0.11.1-addrindex/bitcoin-0.11.1-addrindex.tar.gz
+
+See older releases for install, upgrade and uninstall instructions. In essence, uninstall other Bitcon Core package and install this one.
+
+###Other OS and Platforms
+
+* Download signed binaries (or unsigned Windows installers) from https://github.com/btcdrak/bitcoin/releases/.
+
 #Bitcoin Core 0.11 with addrindex patch
 
-* Built from https://github.com/btcdrak/bitcoin/archive/addrindex-0.11.zip
+NOTE: Please use v0.11.1 because 0.11 contains several security fixes
+
+* Built from https://github.com/btcdrak/bitcoin/archive/addrindex-0.11.1.zip
 * The Linux packages are built without a GUI, the Windows with 
 
 ##Download
