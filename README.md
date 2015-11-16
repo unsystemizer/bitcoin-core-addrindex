@@ -1,3 +1,19 @@
+#Bitcoin Core 0.11.2 with addrindex patch
+
+##Download
+
+####Raspberry Pi 2 (armhf)
+
+* https://www.dropbox.com/s/she30q90sx3xja9/bitcoin-0.11.2_0.11.2-1_armhf.deb
+* Checksum (SHA256): `ca23f8ba8ccefb5735723c78126c548875a51d80b03f64f11c02ef7d3c866f6e`
+* Source code: https://github.com/btcdrak/bitcoin/archive/v0.11.2-addrindex.tar.gz
+
+See older releases for install, upgrade and uninstall instructions. Basically, you need to uninstall other Bitcon Core package and install this one. This package requires libboost 1.55 libraries.
+
+###Other OS and Platforms
+
+* Download signed binaries (or unsigned Windows installers) from https://github.com/btcdrak/bitcoin/releases/.
+
 #Bitcoin Core 0.11.1 with addrindex patch
 
 ##Download
@@ -7,8 +23,6 @@
 * https://www.dropbox.com/s/jf8xc08t45epaab/bitcoin-addrindex_0.11-1_armhf.deb
 * Checksum (SHA256): `f26ce0e6ce430d3ea640f92c2ffea1edb3a5a0d594a6c47ed164b225f1d34e49`
 * Source code: https://github.com/btcdrak/bitcoin/releases/download/v0.11.1-addrindex/bitcoin-0.11.1-addrindex.tar.gz
-
-See older releases for install, upgrade and uninstall instructions. In essence, uninstall other Bitcon Core package and install this one.
 
 ###Other OS and Platforms
 
