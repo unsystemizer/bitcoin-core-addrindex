@@ -8,7 +8,13 @@
 * Checksum (SHA256): `ca23f8ba8ccefb5735723c78126c548875a51d80b03f64f11c02ef7d3c866f6e`
 * Source code: https://github.com/btcdrak/bitcoin/archive/v0.11.2-addrindex.tar.gz
 
-See older releases for install, upgrade and uninstall instructions. Basically, you need to uninstall other Bitcon Core package and install this one. This package requires libboost 1.55 libraries.
+####Raspberry Pi B (armhf)
+
+* https://www.dropbox.com/s/she30q90sx3xja9/bitcoin-0.11.2_0.11.2-1_armhf.deb
+* Checksum (SHA256): `eecaf39993410188fe7f29f4bdbc55574f818060f62d82e82977440078b58a0e`
+* Source code: https://github.com/btcdrak/bitcoin/archive/v0.11.2-addrindex.tar.gz 
+
+See below under the first 0.11 release about install, upgrade and uninstall instructions. Basically you need to uninstall any other Bitcon Core package and install this one. This package requires libboost 1.55 libraries.
 
 ###Other OS and Platforms
 
