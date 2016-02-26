@@ -4,6 +4,32 @@
 
 ####Raspberry Pi 2 (armhf)
 
+* (TODO)
+* Checksum (SHA256): `TODO`
+* Source code: 
+* Requirements (build environment):
+
+####Raspberry Pi B
+
+* (TODO)
+* Checksum (SHA256): `TODO`
+* Source code: 
+* Requirements (build environment):
+
+####Other Platforms and Packages
+
+Linux, OS X and Windows (x86_64) binaries as well as platform-independent source code can be downloaded from BTCdrak's Github [repo here](https://github.com/btcdrak/bitcoin/releases). 
+
+##Install & Uninstall
+
+Please see notes for earlier releases below. 
+
+#Bitcoin Core 0.11.2 with addrindex patch
+
+##Download
+
+####Raspberry Pi 2 (armhf)
+
 * https://www.dropbox.com/s/she30q90sx3xja9/bitcoin-0.11.2_0.11.2-1_armhf.deb
 * Checksum (SHA256): `ca23f8ba8ccefb5735723c78126c548875a51d80b03f64f11c02ef7d3c866f6e`
 * Source code: https://github.com/btcdrak/bitcoin/archive/v0.11.2-addrindex.tar.gz
