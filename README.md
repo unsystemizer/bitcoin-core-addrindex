@@ -1,4 +1,4 @@
-#Bitcoin Core 0.11.2 with addrindex patch
+#Bitcoin Core 0.12.0 with addrindex patch
 
 ##Download
 
@@ -24,7 +24,7 @@ Linux, OS X and Windows (x86_64) binaries as well as platform-independent source
 
 ##Install & Uninstall
 
-Please see notes for earlier releases below. 
+Please see notes for earlier releases below. Basically you need common dependencies required by Bitcoin Core.
 
 Helpful comamands:
 
