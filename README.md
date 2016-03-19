@@ -2,27 +2,36 @@
 
 ##Download
 
-####Raspberry Pi 2 (armhf)
+####Raspberry Pi 2 (armhf) with Raspbian and libboost v1.55.0.2
 
-* (TODO)
-* Checksum (SHA256): `TODO`
-* Source code: 
-* Requirements (build environment):
+* https://www.dropbox.com/s/nrk9r9ih8wyi042/bitcoin_0.12.0-1_deb-8-libboost-1.55.0.2_armhf.deb
+* Checksum (SHA256): `a55755bdfb37255bde7403e9c113a62a44e25d80fde63de4a774f473702b48ab`
+* Source code: https://github.com/btcdrak/bitcoin/archive/v0.12.0-addrindex.zip
+* Requirements (build environment): `Raspbian 8.0`, `Linux rpi1 4.1.13-v7+`, `armv7l GNU/Linux`, with libboost-dev 1.55.0.2
 
-####Raspberry Pi B
+####Raspberry Pi 2 (armhf) with Raspbian and libboost v1.60.0
 
-* (TODO)
-* Checksum (SHA256): `TODO`
-* Source code: 
-* Requirements (build environment):
+This is for systems with manually installed libboost 1.60.0.
+
+* https://www.dropbox.com/s/g9kpm8olxf9qw82/bitcoin-0.12.0_0.12.0-1_libboost-1.60.0_armhf.deb
+* Checksum (SHA256): `c7429dbf2015770e7b964f8382947dfa4c9a7ace962ab001fa2ad820bca3ed4e`
+* Source code: https://github.com/btcdrak/bitcoin/archive/v0.12.0-addrindex.zip
+* Requirements (build environment): `stretch/sid`, `Linux rpi3 4.1.18-v7+`, `armv7l GNU/Linux`, with libboost-1.60.0 built from source
 
 ####Other Platforms and Packages
 
-Linux, OS X and Windows (x86_64) binaries as well as platform-independent source code can be downloaded from BTCdrak's Github [repo here](https://github.com/btcdrak/bitcoin/releases). 
+Linux, OS X and Windows (x86_64) binaries as well as platform-independent source code can be downloaded from BTCdrak's Github [repo here](https://github.com/btcdrak/bitcoin/releases). That is the recommended way of installing packages, followed by building from source by yourself.
 
 ##Install & Uninstall
 
 Please see notes for earlier releases below. 
+
+Helpful comamands:
+
+* `cat /etc/debian_version`               # check your OS version
+* `dpkg -s libboost-dev | grep 'Version'` # if you installed it as package and not from source
+* `sha256sum <downloaded-file>`           # generate SHA256 checksum
+* Recommended `bitcoin.conf` settings for Counterparty users can be found in https://github.com/unsystemizer/counterparty-config-example
 
 #Bitcoin Core 0.11.2 with addrindex patch
 
