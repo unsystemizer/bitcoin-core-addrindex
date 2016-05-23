@@ -9,6 +9,14 @@
 * Source code: https://github.com/btcdrak/bitcoin/releases/tag/v0.12.1-addrindex
 * Requirements (build environment): `Raspbian 8.0 (stretch/sid)`, `Linux rpi2 4.1.19-v7+`, `armv7l GNU/Linux`, with libboost-dev 1.55.0.2
 
+####Raspberry Pi 2 (armhf) with Ubuntu 16.04 and libboost 1.58.0.1
+
+* https://www.dropbox.com/s/y1rmp62xkfwnd1f/bitcoin-0.12.1_0.12.1-1_ubuntu_16.04_armhf.deb?dl=0
+* Checksum (SHA256): `48a3d7554ea5e7357596ccfa64257e5f0217274ad9aea729bd557ad9e09f48d8`
+* Source code: https://github.com/btcdrak/bitcoin/releases/tag/v0.12.1-addrindex
+* Requirements (build environment): `Ubuntu 16.04 LTS`, `Linux rpi3 4.1.19-v7+`, `armv7l GNU/Linux`, with libboost-dev 1.58.0.1
+
+
 #Bitcoin Core 0.12.0 with addrindex patch
 
 ##Download
