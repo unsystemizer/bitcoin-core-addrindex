@@ -1,3 +1,14 @@
+#Bitcoin Core 0.12.1 with addrindex patch
+
+##Download
+
+####Raspberry Pi 2 (armhf) with Raspbian and libboost v1.55.0.2
+
+* https://www.dropbox.com/s/irm5xkjd8vi12bk/bitcoin-0.12.1_0.12.1-0_armhf.deb
+* Checksum (SHA256): `3dbd96f61b5798903300f1090799207a1322293d689c335c56676ed6d332b7e1`
+* Source code: https://github.com/btcdrak/bitcoin/releases/tag/v0.12.1-addrindex
+* Requirements (build environment): `Raspbian 8.0 (stretch/sid)`, `Linux rpi2 4.1.19-v7+`, `armv7l GNU/Linux`, with libboost-dev 1.55.0.2
+
 #Bitcoin Core 0.12.0 with addrindex patch
 
 ##Download
