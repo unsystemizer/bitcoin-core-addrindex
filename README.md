@@ -1,3 +1,10 @@
+#Bitcoin Core 0.13.2 with addrindex patch (beta)
+
+https://github.com/btcdrak/bitcoin/tree/addrindex-0.13 is now in beta and can be built as per the standard Bitcoin Core procedure.
+Once it's released, you will be able to download deterministically built ARM binaries from there.
+
+Note that in order to use Counterparty 9.55.1 with this release you need to stop it, let Bitcoin Core reparse the blockchain, and then run counterparty-server with the reparse argument once. 
+
 #Bitcoin Core 0.12.1 with addrindex patch
 
 ##Download
