@@ -1,3 +1,21 @@
+#Bitcoin Core 0.15 (external index server)
+
+Please consider using https://github.com/CounterpartyXCP/indexd-server (indexd server for Bitcoin Core 0.15+). 
+
+#Bitcoin Core 0.14 with addrindex patch
+
+This version hasn't been released by the maintainer, but it can be be built from the source as per the standard Bitcoin Core procedure. 
+
+Source: https://github.com/btcdrak/bitcoin/tree/addrindex-0.14
+
+Binaries: note that you can build these on your own. These are unsigned binaries I created for my own use.
+
+* Ubuntu 16.04 - x86_64: https://www.dropbox.com/s/5n9700kizjkpilw/bitcoin-addrindex_0.14-1_amd64.deb (SHA256: B3D14BAD3B884558A64F39F37F9C58CA30C777F05886135AF673485B09F199D5)
+* Ubuntu 16.04 - AARM64: TODO (open Issue here if you need help with this)
+* Ubuntu 16.04 - armhf (Raspberry Pi 2): TODO (open Issue here if you need help with this)
+
+You may need to install some dependency packages required by stock Bitcoin Core 0.14.
+
 #Bitcoin Core 0.13.2 with addrindex patch
 
 https://github.com/btcdrak/bitcoin/tree/addrindex-0.13 can be built from the source as per the standard Bitcoin Core procedure. You can also download signed, deterministically built ARM binaries ([regular](https://github.com/btcdrak/bitcoin/releases/download/v0.13.2-addrindex/bitcoin-0.13.2-addrindex-arm-linux-gnueabihf.tar.gz) and debug version). 
@@ -23,7 +41,7 @@ Note that Counterparty server v9.55.1 does not yet officially support v0.13, but
 
 ####Raspberry Pi 2 (armhf) with Ubuntu 16.04 and libboost 1.58.0.1
 
-* https://www.dropbox.com/s/y1rmp62xkfwnd1f/bitcoin-0.12.1_0.12.1-1_ubuntu_16.04_armhf.deb?dl=0
+* https://www.dropbox.com/s/y1rmp62xkfwnd1f/bitcoin-0.12.1_0.12.1-1_ubuntu_16.04_armhf.deb
 * Checksum (SHA256): `48a3d7554ea5e7357596ccfa64257e5f0217274ad9aea729bd557ad9e09f48d8`
 * Source code: https://github.com/btcdrak/bitcoin/releases/tag/v0.12.1-addrindex
 * Requirements (build environment): `Ubuntu 16.04 LTS`, `Linux rpi3 4.1.19-v7+`, `armv7l GNU/Linux`, with libboost-dev 1.58.0.1
