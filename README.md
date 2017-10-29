@@ -11,7 +11,7 @@ Source: https://github.com/btcdrak/bitcoin/tree/addrindex-0.14
 Binaries: note that you can build these on your own. These are unsigned binaries I created for my own use.
 
 * Ubuntu 16.04 - x86_64: https://www.dropbox.com/s/5n9700kizjkpilw/bitcoin-addrindex_0.14-1_amd64.deb (SHA256: B3D14BAD3B884558A64F39F37F9C58CA30C777F05886135AF673485B09F199D5)
-* Ubuntu 16.04 - AARM64: TODO (open Issue here if you need help with this)
+* Ubuntu 16.04 - AARM64: https://www.dropbox.com/s/f36q0jlmeam2lbo/bitcoin-addrindex_0.14-1_arm64.deb (SHA256: 1437EF927E3A1EE28C18A23182CC354066B5BB98CB86A431B1000C4ECEEA3595)
 * Ubuntu 16.04 - armhf (Raspberry Pi 2): TODO (open Issue here if you need help with this)
 
 You may need to install some dependency packages required by stock Bitcoin Core 0.14.
