@@ -1,6 +1,7 @@
 # Bitcoin Core 0.15 (external index server)
 
-Please consider using https://github.com/CounterpartyXCP/indexd-server (indexd server for Bitcoin Core 0.15+). 
+* Please consider using https://github.com/CounterpartyXCP/indexd-server (indexd server for Bitcoin Core 0.15+). 
+* Bitcoin Core addrindex patch has been ported to 0.15.0.1 (https://github.com/alexmat/bitcoin-addrindex), but is currently less tested compared to prior releases by BTCDrak
 
 # Bitcoin Core 0.14 with addrindex patch
 
