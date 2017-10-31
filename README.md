@@ -3,6 +3,11 @@
 * Please consider using https://github.com/CounterpartyXCP/indexd-server (indexd server for Bitcoin Core 0.15+). 
 * Bitcoin Core addrindex patch has been ported to 0.15.0.1 (https://github.com/alexmat/bitcoin-addrindex), but is currently less tested compared to prior releases by BTCDrak
 
+## Migration from Bitcoin Core addrindex to indexd-server
+
+* You need to disable `addrindex=1` (set to 0, or remove the line) and run bitcoind with `-reindex` once. This will take at least 4 (testnet) to 12 (mainnet) hours. Then install and configure indexd-server.
+* Alternatively, setup another instance of Bitcoin Core with `txindex=1`, copy blocks directory (but not blocks/index subdirectory, though) from the existing instance to it, then run Bitcoin Core to create txindex data. Now you can switch over to this Bitcoin Core instance and remove the addrindex instance. 
+
 # Bitcoin Core 0.14 with addrindex patch
 
 This version hasn't been released by the maintainer, but it can be be built from the source as per the standard Bitcoin Core procedure. 
